@@ -1,6 +1,11 @@
 # Nature-Travel
 
-
+For this project, I used Bootstrap 5, where I focused on the design of the page and its functionality.
+Bootstrap 5 is a great tool to make web pages load faster and ensures that they are responsive for all screen sizes. 
+This site is responsive for all screen sizes. 
+It has videos added, some beautiful images, and many more cool stuff. 
+Please, feel free to check it out. 
+This was a great challenge for me.
 
 
 Desktop version bellow:
