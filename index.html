@@ -19,7 +19,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-sm bg-success navbar-dark">
+      <nav class="navbar navbar-expand-md bg-success navbar-dark">
         <div class="container">
           <a href="#" class="navbar-brand h1 text-uppercase">Nature Travel</a>
           <button
@@ -43,7 +43,13 @@
                 <a href="#climbing" class="nav-link">Climbing</a>
               </li>
               <li class="nav-item">
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+              </li>
+              <li class="nav-item">
                 <a href="#instructors" class="nav-link">Instructors</a>
+              </li>
+              <li class="nav-item">
+                <a href="#faq" class="nav-link">FAQ</a>
               </li>
             </ul>
           </div>
@@ -79,7 +85,23 @@
           <div
             class="col-md-6 d-flex align-items-center justify-content-center"
           >
-            <img src="/img/nature.jpg" alt="" class="img-fluid mt-3 mt-md-0" />
+            <!-- If you want add an image instead of video
+            <img
+              src="/img/nature.jpg"
+              alt="nature"
+              class="img-fluid mt-3 mt-md-0"
+            />-->
+            <div class="ratio ratio-16x9 shadow">
+              <video autoplay loop muted playsinline>
+                <source
+                  src="video/climbing.mp4"
+                  type="video/mp4"
+                  title="Explore Nature with US"
+                />
+
+                Your browser does not support the video tag.
+              </video>
+            </div>
           </div>
         </div>
       </div>
@@ -96,8 +118,8 @@
           </div>
           <div class="col-md-6">
             <h2 class="h2">
-              Want to visit <span class="text-white">the best lakes</span> in a
-              country?
+              Want to visit <span class="text-white">the best lakes</span> in
+              the country?
             </h2>
             <p class="my-3 lead">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -184,19 +206,126 @@
         </div>
       </div>
     </section>
-
+    <!-- Testimonials -->
+    <section class="p-5" id="testimonials">
+      <div class="container">
+        <h1 class="h1 text-center mb-5">
+          Find out what others
+          <span class="text-success">experienced</span> with us!
+        </h1>
+        <div class="row gy-5">
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-success shadow-lg h-100">
+              <div class="card-body text-center text-white">
+                <img
+                  src="http://randomuser.me/api/portraits/men/67.jpg"
+                  alt="man"
+                  class="rounded-circle mb-3"
+                />
+                <h3 class="card-title mb-3">James Anderson</h3>
+                <p class="card-text">
+                  Thanks to [Nature Travel Agency], I experienced the beauty of
+                  nature like never before. It was pure magic
+                </p>
+                <div class="star-rating">
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9734;</span>
+                  <!-- Half-star -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-success shadow-lg h-100">
+              <div class="card-body text-center text-white">
+                <img
+                  src="http://randomuser.me/api/portraits/men/35.jpg"
+                  alt="man"
+                  class="rounded-circle mb-3"
+                />
+                <h3 class="card-title mb-3">Michael Johnson</h3>
+                <p class="card-text">
+                  I've seen the world, but [Nature Travel Agency] showed me the
+                  wonders of nature in a whole new light.
+                </p>
+                <div class="star-rating">
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9734;</span>
+                  <!-- Half-star -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-success shadow-lg h-100">
+              <div class="card-body text-center text-white">
+                <img
+                  src="http://randomuser.me/api/portraits/men/29.jpg"
+                  alt="man"
+                  class="rounded-circle mb-3"
+                />
+                <h3 class="card-title mb-3">David Williams</h3>
+                <p class="card-text">
+                  Every moment spent with [Nature Travel Agency] was a step
+                  closer to Mother Nature's heart
+                </p>
+                <div class="star-rating">
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9734;</span>
+                  <!-- Half-star -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-success shadow-lg h-100">
+              <div class="card-body text-center text-white">
+                <img
+                  src="http://randomuser.me/api/portraits/men/17.jpg"
+                  alt="man"
+                  class="rounded-circle mb-3"
+                />
+                <h3 class="card-title mb-3">Christopher Davis</h3>
+                <p class="card-text">
+                  Their passion for the environment is contagious, and it made
+                  our journey extraordinary.
+                </p>
+                <div class="star-rating">
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Instructors section -->
-    <section class="p-5" id="instructors">
+    <section class="p-5 bg-success text-dark" id="instructors">
       <div class="container">
         <h1 class="h1 text-center mb-5">
           For adventurers who follow only the best - our guides are top-notch
-          <span class="text-success text-uppercase">'nature navigators'!</span>
+          <span class="text-white text-uppercase">'nature navigators'!</span>
         </h1>
         <div class="row gy-5">
           <div class="col-md-4">
-            <div class="card bg-success shadow-lg h-100">
-              <div class="card-body text-center text-white">
-                <h2 class="card-title h2 mb-3">Lake adventures tour guy</h2>
+            <div class="card bg-light shadow-lg h-100">
+              <div class="card-body text-center text-dark">
+                <h2 class="card-title h2 mb-5 mt-1">
+                  Lake adventures tour guy
+                </h2>
                 <img
                   src="http://randomuser.me/api/portraits/men/11.jpg"
                   alt="man"
@@ -207,16 +336,16 @@
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
                   recusandae, ducimus cum tenetur eius labore!
                 </p>
-                <a href="#"><i class="bi bi-twitter text-white mx-1"></i></a>
-                <a href="#"><i class="bi bi-facebook text-white mx-1"></i></a>
-                <a href="#"><i class="bi bi-linkedin text-white mx-1"></i></a>
-                <a href="#"><i class="bi bi-instagram text-white mx-1"></i></a>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card bg-success shadow-lg h-100">
-              <div class="card-body text-center text-white">
+            <div class="card bg-light shadow-lg h-100">
+              <div class="card-body text-center text-dark">
                 <h2 class="card-title h2 mb-3">Rafting adventures tour guy</h2>
                 <img
                   src="http://randomuser.me/api/portraits/men/18.jpg"
@@ -228,16 +357,16 @@
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
                   recusandae, ducimus cum tenetur eius labore!
                 </p>
-                <a href="#"><i class="bi bi-twitter text-white mx-1"></i></a>
-                <a href="#"><i class="bi bi-facebook text-white mx-1"></i></a>
-                <a href="#"><i class="bi bi-linkedin text-white mx-1"></i></a>
-                <a href="#"><i class="bi bi-instagram text-white mx-1"></i></a>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card bg-success shadow-lg h-100">
-              <div class="card-body text-center text-white">
+            <div class="card bg-light shadow-lg h-100">
+              <div class="card-body text-center text-dark">
                 <h2 class="card-title h2 mb-3">Climbing adventures tour guy</h2>
                 <img
                   src="http://randomuser.me/api/portraits/men/20.jpg"
@@ -249,16 +378,285 @@
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
                   recusandae, ducimus cum tenetur eius labore!
                 </p>
-                <a href="#"><i class="bi bi-twitter text-white mx-1"></i></a>
-                <a href="#"><i class="bi bi-facebook text-white mx-1"></i></a>
-                <a href="#"><i class="bi bi-linkedin text-white mx-1"></i></a>
-                <a href="#"><i class="bi bi-instagram text-white mx-1"></i></a>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- FAQ section-->
+    <section class="p-5" id="faq">
+      <div class="container">
+        <h1 class="h1 text-center text-success mb-4">
+          Frequently asked questions
+        </h1>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                Where are your adventure destinations located?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Our destinations are spread across various breathtaking
+                locations, including lakes, mountains, and rivers, both
+                domestically and internationally.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                Are your trips suitable for all ages and skill levels?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                We offer a range of trips suitable for all ages and experience
+                levels, from beginners to experienced adventurers.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                What does your nature travel agency offer?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                We specialize in lake adventures, mountain climbing, and rafting
+                trips that immerse you in the beauty of nature.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                Are life jackets and safety equipment provided for lake
+                adventures?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Yes, safety is our top priority, and we provide all necessary
+                safety equipment, including life jackets, for our lake
+                adventures.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                Do I need prior climbing experience to join a mountain climbing
+                trip?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                While some trips are suitable for beginners, others may require
+                previous climbing experience. We can help you choose the right
+                trip based on your skills.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                What gear is provided for mountain climbing expeditions?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                We provide essential climbing gear, but participants may need to
+                bring their own personal items. We'll provide a detailed packing
+                list for each trip.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                Is rafting suitable for families with children?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Yes, we offer family-friendly rafting trips with mild rapids and
+                professional guides to ensure safety.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                What river destinations are available for rafting trips?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Our rafting trips take place on some of the most scenic rivers,
+                offering various levels of rapids to suit different preferences.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                How can I book a trip with your agency?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                You can easily book a trip through our website, by phone, or by
+                visiting our office. Our team is ready to assist you.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                What is your cancellation policy?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Our cancellation policy varies depending on the trip and
+                destination. Please refer to the specific trip details for
+                cancellation terms.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer class="bg-success p-3 text-center text-dark">
       <p class="fw-normal">
         &copy; 2023
@@ -350,10 +748,15 @@
       </div>
     </div>
 
+    <button class="back-to-top d-none text-white bg-success border-white">
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
